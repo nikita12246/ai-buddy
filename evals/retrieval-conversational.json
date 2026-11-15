@@ -1,0 +1,358 @@
+[
+  {
+    "id": "conversational-01",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Где в Сентри посмотреть, что происходило прямо перед ошибкой?",
+    "allowed_source_ids": [
+      "vendor-sentry-issues-s1"
+    ],
+    "expected_facts": [
+      "В деталях отдельного события breadcrumbs показывают, что происходило до ошибки."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-02",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Как в Графане понять, откуда на графике берутся цифры?",
+    "allowed_source_ids": [
+      "vendor-grafana-dashboard-s1"
+    ],
+    "expected_facts": [
+      "Посмотреть запрос панели и её источник данных."
+    ],
+    "forbidden_source_ids": [
+      "atlas-repo-r1",
+      "atlas-vpn-r1",
+      "atlas-docs-r1",
+      "atlas-tracker-r1",
+      "atlas-approval-r1",
+      "atlas-first-task-r1"
+    ],
+    "first_source_id": "vendor-grafana-dashboard-s1"
+  },
+  {
+    "id": "conversational-03",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Кого попросить добавить меня в Tech-dep?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r14"
+    ],
+    "expected_facts": [
+      "Руководителя или наставника."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-04",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Что поставить, чтобы перехватывать запросы, и когда это сделать по чек-листу?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r4"
+    ],
+    "expected_facts": [
+      "Bruno или Charles. Срок по чек-листу — первый месяц."
+    ],
+    "forbidden_source_ids": [
+      "atlas-repo-r1",
+      "atlas-vpn-r1",
+      "atlas-docs-r1",
+      "atlas-tracker-r1",
+      "atlas-approval-r1",
+      "atlas-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-05",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Какую часть SSH-ключа добавлять в профиль Bitbucket?",
+    "allowed_source_ids": [
+      "vendor-bitbucket-ssh-s1"
+    ],
+    "expected_facts": [
+      "Публичный ключ. Приватный ключ остаётся на устройстве."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-06",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Какой ID у нашей приватной репы в гитлабе?",
+    "allowed_source_ids": [
+      "orbit-repo-r1"
+    ],
+    "expected_facts": [
+      "ID учебного репозитория — orbit-training-repo."
+    ],
+    "forbidden_source_ids": [
+      "atlas-repo-r1",
+      "atlas-vpn-r1",
+      "atlas-docs-r1",
+      "atlas-tracker-r1",
+      "atlas-approval-r1",
+      "atlas-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-07",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что мне написать в заявке на ВПН?",
+    "allowed_source_ids": [
+      "atlas-vpn-r1"
+    ],
+    "expected_facts": [
+      "Указать учебное задание, для которого нужно подключение."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-08",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "В каком пространстве Конфлюенса искать наши доки?",
+    "allowed_source_ids": [
+      "orbit-docs-r1"
+    ],
+    "expected_facts": [
+      "Учебные документы в пространстве orbit-training-docs."
+    ],
+    "forbidden_source_ids": [
+      "atlas-repo-r1",
+      "atlas-vpn-r1",
+      "atlas-docs-r1",
+      "atlas-tracker-r1",
+      "atlas-approval-r1",
+      "atlas-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-09",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Какой доступ к Джире попросить, если хочу только смотреть задачи?",
+    "allowed_source_ids": [
+      "atlas-tracker-r1"
+    ],
+    "expected_facts": [
+      "Чтение в проекте atlas-training-tracker."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-10",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "С какого README мне начать стажировку?",
+    "allowed_source_ids": [
+      "atlas-first-task-r1"
+    ],
+    "expected_facts": [
+      "Читать учебный README каталога в atlas-training-repo."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ],
+    "first_source_id": "atlas-first-task-r1"
+  },
+  {
+    "id": "conversational-11",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что такое ТДР и зачем там собирают отзывы?",
+    "allowed_source_ids": [
+      "avito-tdr-s1"
+    ],
+    "expected_facts": [
+      "Обсуждение проектного изменения до реализации и получение отзывов коллег."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-12",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Кто добавит меня в техдеп?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r14"
+    ],
+    "expected_facts": [
+      "Попросить руководителя или наставника."
+    ],
+    "forbidden_source_ids": [
+      "atlas-repo-r1",
+      "atlas-vpn-r1",
+      "atlas-docs-r1",
+      "atlas-tracker-r1",
+      "atlas-approval-r1",
+      "atlas-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-13",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "В Сташе в профиль вставлять публичный ключ?",
+    "allowed_source_ids": [
+      "vendor-bitbucket-ssh-s1"
+    ],
+    "expected_facts": [
+      "Добавить публичную часть пары ключей в профиль Bitbucket Data Center."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ]
+  },
+  {
+    "id": "conversational-14",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Не пускает в учебную репу, какую роль просить?",
+    "allowed_source_ids": [
+      "atlas-repo-r1"
+    ],
+    "expected_facts": [
+      "Reporter для atlas-training-repo."
+    ],
+    "forbidden_source_ids": [
+      "orbit-repo-r1",
+      "orbit-vpn-r1",
+      "orbit-docs-r1",
+      "orbit-tracker-r1",
+      "orbit-approval-r1",
+      "orbit-first-task-r1"
+    ],
+    "first_source_id": "atlas-repo-r1"
+  },
+  {
+    "id": "conversational-15",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Не пускает в учебную репу, какую роль просить?",
+    "allowed_source_ids": [
+      "orbit-repo-r1"
+    ],
+    "expected_facts": [
+      "Reporter для orbit-training-repo."
+    ],
+    "forbidden_source_ids": [
+      "atlas-repo-r1",
+      "atlas-vpn-r1",
+      "atlas-docs-r1",
+      "atlas-tracker-r1",
+      "atlas-approval-r1",
+      "atlas-first-task-r1"
+    ],
+    "first_source_id": "orbit-repo-r1"
+  },
+  {
+    "id": "conversational-16",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Как по ЗБП решают, что делать с новым багом?",
+    "allowed_source_ids": [
+      "avito-habr-zbp-s1"
+    ],
+    "expected_facts": [
+      "В описанном подходе нужно принять решение, как поступить с новым дефектом."
+    ],
+    "forbidden_source_ids": [
+      "atlas-repo-r1",
+      "atlas-vpn-r1",
+      "atlas-docs-r1",
+      "atlas-tracker-r1",
+      "atlas-approval-r1",
+      "atlas-first-task-r1"
+    ]
+  }
+]

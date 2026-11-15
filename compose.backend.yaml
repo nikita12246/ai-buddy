@@ -1,0 +1,81 @@
+name: ai-buddy-backend-demo
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: ai_buddy_demo
+      POSTGRES_USER: ai_buddy_demo
+      POSTGRES_PASSWORD: ${BACKEND_DEMO_DB_PASSWORD:?run the backend demo launcher}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -h 127.0.0.1 -U "$$POSTGRES_USER" -d "$$POSTGRES_DB"']
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    image: ai-buddy-backend-demo:local
+    environment:
+      HTTP_ADDR: 0.0.0.0:8081
+      DATABASE_URL: postgresql://ai_buddy_demo:${BACKEND_DEMO_DB_PASSWORD:?run the backend demo launcher}@postgres:5432/ai_buddy_demo?sslmode=disable
+      DEMO_ATLAS_TOKEN: ${BACKEND_DEMO_ATLAS_TOKEN:?run the backend demo launcher}
+      DEMO_ORBIT_TOKEN: ${BACKEND_DEMO_ORBIT_TOKEN:?run the backend demo launcher}
+      DEMO_GUEST_ACCESS: "1"
+      MOCK_ACCESS_URL: http://mock-access:8082
+      MOCK_ACCESS_TOKEN: ${BACKEND_DEMO_ACCESS_TOKEN:?run the backend demo launcher}
+      KNOWLEDGE_RESOURCES_PATH: /app/resources.json
+      LLM_PROVIDER: ${LLM_PROVIDER:-modelhub}
+      LLM_MODEL: ${LLM_MODEL:-gpt-6.1-sol}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+    ports:
+      - 127.0.0.1:${BACKEND_DEMO_API_PORT:-8081}:8081
+    volumes:
+      - ./data/synthetic/resources.json:/app/resources.json:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mock-access:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, wget, -q, -O, /dev/null, 'http://127.0.0.1:8081/api/health']
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  mock-access:
+    image: ai-buddy-backend-demo:local
+    pull_policy: never
+    entrypoint: [/usr/local/bin/mock-access]
+    environment:
+      MOCK_HTTP_ADDR: 0.0.0.0:8082
+      MOCK_DATABASE_URL: postgresql://ai_buddy_demo:${BACKEND_DEMO_DB_PASSWORD:?run the backend demo launcher}@postgres:5432/ai_buddy_demo?sslmode=disable
+      MOCK_ACCESS_TOKEN: ${BACKEND_DEMO_ACCESS_TOKEN:?run the backend demo launcher}
+      MOCK_DECISION_TOKEN: ${BACKEND_DEMO_DECISION_TOKEN:?run the backend demo launcher}
+    ports:
+      - 127.0.0.1:${BACKEND_DEMO_MOCK_PORT:-8082}:8082
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, wget, -q, -O, /dev/null, 'http://127.0.0.1:8082/health']
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+  web:
+    build: ./frontend
+    ports:
+      - 127.0.0.1:${BACKEND_DEMO_WEB_PORT:-8080}:8080
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, wget, -q, -O, /dev/null, 'http://127.0.0.1:8080/api/health']
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  postgres_data:

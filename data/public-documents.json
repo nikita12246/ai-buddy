@@ -1,0 +1,163 @@
+[
+  {
+    "id": "avito-playbook-development",
+    "source_id": "avito-playbook",
+    "kind": "markdown",
+    "title": "AvitoTech Playbook — принципы разработки",
+    "path": "playbook/development-principles.md",
+    "url": "https://github.com/avito-tech/playbook/blob/0c1d2aa1501ca6889357908f54b12695f0534e48/development-principles.md",
+    "download_url": "https://raw.githubusercontent.com/avito-tech/playbook/0c1d2aa1501ca6889357908f54b12695f0534e48/development-principles.md"
+  },
+  {
+    "id": "avito-playbook-paas",
+    "source_id": "avito-playbook",
+    "kind": "markdown",
+    "title": "AvitoTech Playbook — PaaS",
+    "path": "playbook/avito-paas.md",
+    "url": "https://github.com/avito-tech/playbook/blob/0c1d2aa1501ca6889357908f54b12695f0534e48/avito-paas.md",
+    "download_url": "https://raw.githubusercontent.com/avito-tech/playbook/0c1d2aa1501ca6889357908f54b12695f0534e48/avito-paas.md",
+    "headings": [
+      "Avito PaaS",
+      "Зачем платформа нужна разработчикам?",
+      "Зачем платформа нужна Авито?"
+    ]
+  },
+  {
+    "id": "avito-playbook-spt",
+    "source_id": "avito-playbook",
+    "kind": "markdown",
+    "title": "AvitoTech Playbook — SPT",
+    "path": "playbook/spt.md",
+    "url": "https://github.com/avito-tech/playbook/blob/0c1d2aa1501ca6889357908f54b12695f0534e48/spt.md",
+    "download_url": "https://raw.githubusercontent.com/avito-tech/playbook/0c1d2aa1501ca6889357908f54b12695f0534e48/spt.md"
+  },
+  {
+    "id": "avito-habr-first-days",
+    "source_id": "avito-habr-first-days",
+    "kind": "html",
+    "title": "Стажировка в Авито глазами стажёра (2021)",
+    "path": "habr/first-days.html",
+    "url": "https://habr.com/ru/companies/avito/articles/550246/",
+    "download_url": "https://habr.com/ru/amp/publications/550246/",
+    "content_class": "article-body",
+    "headings": [
+      "Первые дни стажировки"
+    ]
+  },
+  {
+    "id": "avito-habr-zbp",
+    "source_id": "avito-habr-zbp",
+    "kind": "summary",
+    "title": "Zero Bug Policy — опубликованный опыт Авито (2019)",
+    "path": "public-notes/zbp.md",
+    "url": "https://habr.com/ru/companies/avito/articles/455068/"
+  },
+  {
+    "id": "avito-cli-purpose",
+    "source_id": "avito-cli-purpose",
+    "kind": "summary",
+    "title": "Avito CLI (avito-cli): назначение консольной утилиты",
+    "path": "public-notes/avito-cli-purpose.md",
+    "url": "https://github.com/avito-tech/playbook/blob/0c1d2aa1501ca6889357908f54b12695f0534e48/avito-paas.md#avito-paas",
+    "source_kind": "avito_public"
+  },
+  {
+    "id": "avito-tdr",
+    "source_id": "avito-tdr",
+    "kind": "summary",
+    "title": "Tech Design Review (TDR) в публичном Playbook Авито",
+    "path": "public-notes/avito-tdr.md",
+    "url": "https://github.com/avito-tech/playbook/blob/0c1d2aa1501ca6889357908f54b12695f0534e48/tech_design_review.md#что-такое-tdr",
+    "source_kind": "avito_public"
+  },
+  {
+    "id": "vendor-sentry-issues",
+    "source_id": "vendor-sentry-issues",
+    "kind": "summary",
+    "title": "Sentry: issue, события и разбор ошибки",
+    "path": "public-notes/vendor-sentry-issues.md",
+    "url": "https://docs.sentry.io/product/issues/issue-details/",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-grafana-dashboard",
+    "source_id": "vendor-grafana-dashboard",
+    "kind": "summary",
+    "title": "Grafana: дашборд, панель и источник данных",
+    "path": "public-notes/vendor-grafana-dashboard.md",
+    "url": "https://grafana.com/docs/grafana/latest/visualizations/dashboards/#overview",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-bitbucket-ssh",
+    "source_id": "vendor-bitbucket-ssh",
+    "kind": "summary",
+    "title": "Stash / Bitbucket Data Center: личный SSH-ключ",
+    "path": "public-notes/vendor-bitbucket-ssh.md",
+    "url": "https://confluence.atlassian.com/bitbucketserver/ssh-user-keys-for-personal-use-776639793.html",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-effective-go",
+    "source_id": "vendor-effective-go",
+    "kind": "summary",
+    "title": "Effective Go: с чего начать изучение идиом Go",
+    "path": "public-notes/vendor-effective-go.md",
+    "url": "https://go.dev/doc/effective_go",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-bruno-http",
+    "source_id": "vendor-bruno-http",
+    "kind": "summary",
+    "title": "Bruno — коллекция и первый HTTP-запрос",
+    "path": "public-notes/vendor-bruno-http.md",
+    "url": "https://docs.usebruno.com/v3/introduction/quick-start",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-lens-kubeconfig",
+    "source_id": "vendor-lens-kubeconfig",
+    "kind": "summary",
+    "title": "Lens — импорт kubeconfig и подключение к кластеру",
+    "path": "public-notes/vendor-lens-kubeconfig.md",
+    "url": "https://docs.lenshq.io/k8slens/getting-started/add-clusters/add-local-cluster/",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-kubernetes-context",
+    "source_id": "vendor-kubernetes-context",
+    "kind": "summary",
+    "title": "Kubernetes — контекст kubeconfig и текущий кластер",
+    "path": "public-notes/vendor-kubernetes-context.md",
+    "url": "https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#context",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-go-first-program",
+    "source_id": "vendor-go-first-program",
+    "kind": "summary",
+    "title": "Go — первый модуль и запуск программы",
+    "path": "public-notes/vendor-go-first-program.md",
+    "url": "https://go.dev/doc/tutorial/getting-started#code",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "vendor-redash-query",
+    "source_id": "vendor-redash-query",
+    "kind": "summary",
+    "title": "Redash — запрос, визуализация и дашборд",
+    "path": "public-notes/vendor-redash-query.md",
+    "url": "https://redash.io/help/user-guide/getting-started/",
+    "source_kind": "vendor_docs"
+  },
+  {
+    "id": "avito-engineer-profiles",
+    "source_id": "avito-engineer-profiles",
+    "kind": "summary",
+    "title": "Профили инженеров AvitoTech — уровни и ожидания",
+    "path": "public-notes/avito-engineer-profiles.md",
+    "url": "https://github.com/avito-tech/playbook/blob/master/developer-profile.md#профили-инженеров",
+    "source_kind": "avito_public"
+  }
+]

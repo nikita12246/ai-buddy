@@ -1,0 +1,35 @@
+{
+  "snapshot": "2026-11-11",
+  "chunk_count": 109,
+  "corpus_sha256": "c24e8d046e174fbc4b3bce337dc45e0fa63074b6b57be4cf74ca0610bb01d7d3",
+  "raw": {
+    "avito-checklist/backend.csv": "1bf32a9ecdcb762cfe57edb2079795e5f2e71eecf682c6d6028f322b6c86a74b",
+    "avito-checklist/general.csv": "5d175acace470c78a5d7997fd2ebfc058a35ebc361a79d182574d2c3b5eca9db",
+    "habr/first-days.html": "c43016d0c6a9904eb4ab22f6442ae9995fe4d42e2408693455e0762dbbbca6ff",
+    "playbook/avito-paas.md": "88af7cfdca9846971fecb68e2f9bc86d18cdd75d24c4c887b06c1fd76f657164",
+    "playbook/development-principles.md": "502722d40c765fc12cf74b1b69f84e119879fcd36e0caf730450b72b8f3428bb",
+    "playbook/spt.md": "21ef0b976560d1fb333e323bebb929fdfc9af3f768fa64b111971b2f8a456c3b"
+  },
+  "repo": {
+    "backend/internal/knowledge/schema.sql": "0013b1f229cdbb483901d310b6a6905b1d1d1fed5adaaa1bc1235ff82082fb9e",
+    "data/public-documents.json": "8459736d2b585068e3b57e3cd1bcb3ba9718b9355892ca2c723606f3aa5d79a2",
+    "data/public-notes/avito-cli-purpose.md": "ba37832fb7a30903f7e9104f5a9a6ad36033f041fe4241b2b94e051902a4f341",
+    "data/public-notes/avito-engineer-profiles.md": "7d30ac98143a11f77962bc19937af698695545eb60bb1047cb1200006c600fba",
+    "data/public-notes/avito-tdr.md": "4d986a953d2cfca903d0d1512fd309bdaec72bcf90e0f9c900110df9e3c85418",
+    "data/public-notes/vendor-bitbucket-ssh.md": "b0ab2aa4212a136d0f015b35743306925e0097907ac1e5448524bc8d183d022e",
+    "data/public-notes/vendor-bruno-http.md": "530b0b9e764fee2f2f2cdcca69ece675a1e169c9e8a322b50a29d8a0adb6a75b",
+    "data/public-notes/vendor-effective-go.md": "35ef715ef574d60a1d700e5b453441e1f25dbc833d0b5e61b7d617bf89c3af50",
+    "data/public-notes/vendor-go-first-program.md": "79a9ba3764306ecf4438e61d421c518646247d0291e47eedb22b5ac1828f5c68",
+    "data/public-notes/vendor-grafana-dashboard.md": "490a77c241cd52763f1be9e60023723220d25aea1d3ef5f9453f3ae9eeca6ada",
+    "data/public-notes/vendor-kubernetes-context.md": "6e35bcbaa826b38ef4eecd24b2213cf6e616dd10202ab4ddc47f6692c0126be6",
+    "data/public-notes/vendor-lens-kubeconfig.md": "a594b42526ff5f86bea687cea459b537fcb2a4484967ef6ad6f7b75c7da0f716",
+    "data/public-notes/vendor-redash-query.md": "7c0c798996277806117c4ea83ba8f13b088d5f6e1736262bdba31eeacc8262ff",
+    "data/public-notes/vendor-sentry-issues.md": "ceb7cc353f676171c1f6390a10e96fb09d044645303d955716172b456b52d67a",
+    "data/public-notes/zbp.md": "00c1c359613120be2287d83a06bb29b70dcc233519b95620d375c0ab842d3ebc",
+    "data/synthetic/policies.jsonl": "61b930f9fc6016e8244a71096140041c24a846c6ebe672cc3a140a9cdf2396da",
+    "data/synthetic/resources.json": "87c7b97461543379a397548e1aec8cd331cb03a8e6a79d92d683a63fdbee7614",
+    "scripts/ingest/checklist.py": "fd2857d0af744ea5e0f8c8ff37c809452686c1893c6f9a9177d719f1b2739389",
+    "scripts/ingest/corpus.py": "ed44f46909fbe2eab12e70c454e72d0524f122e98910884cf790a6db74c44759",
+    "scripts/ingest/seed.py": "bfe7cf5db06a2157f4fbc8bd792a8c3443d3b70c308361f11756254a436de3b9"
+  }
+}

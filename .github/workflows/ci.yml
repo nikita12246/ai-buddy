@@ -1,0 +1,145 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  repository:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/check_repo.py
+      - run: python -m unittest discover -s scripts/tests
+      - run: docker compose config --quiet
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_DB: ai_buddy_test
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: ci_only
+        ports:
+          - 5432/tcp
+        options: >-
+          --health-cmd "pg_isready -U postgres -d ai_buddy_test"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: backend/go.mod
+          cache: false
+      - run: test -z "$(gofmt -l .)"
+      - run: go vet ./...
+      - run: go test -race -coverpkg=./... -coverprofile=coverage.out ./...
+        env:
+          BACKEND_TEST_DATABASE_URL: postgresql://postgres:ci_only@127.0.0.1:${{ job.services.postgres.ports['5432'] }}/ai_buddy_test?sslmode=disable
+      - run: go tool cover -func=coverage.out | tee -a "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: backend-statement-coverage
+          path: backend/coverage.out
+      - run: go run ./cmd/ai-eval -check
+      - name: Validate all 30 team evaluation cases offline
+        run: |
+          python3 ../evals/prepare_reference.py --data-root .. --output "$RUNNER_TEMP/ai-reference-cases.json"
+          go run ./cmd/ai-eval -check -cases "$RUNNER_TEMP/ai-reference-cases.json"
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm run coverage
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frontend-line-coverage
+          path: frontend/coverage/
+      - run: npm run build
+  coverage:
+    runs-on: ubuntu-latest
+    needs: [backend, frontend]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: backend-statement-coverage
+          path: reports/backend
+      - uses: actions/download-artifact@v4
+        with:
+          name: frontend-line-coverage
+          path: reports/frontend
+      - run: python3 scripts/coverage_report.py reports/backend/coverage.out reports/frontend/lcov.info | tee reports/line-coverage.md "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: combined-line-coverage
+          path: reports/line-coverage.md
+  containers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker compose up --build --wait --wait-timeout 180
+      - run: curl --fail http://127.0.0.1:8080/api/health
+      - if: failure()
+        run: docker compose logs --no-color --tail=100
+      - if: always()
+        run: docker compose down
+  backend-demo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+        working-directory: frontend
+      - run: npx playwright install --with-deps chromium
+        working-directory: frontend
+      - run: python3 scripts/dev/backend_demo.py up
+      - run: npm run test:e2e
+        working-directory: frontend
+        env:
+          RECORD_DEMO: '1'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: browser-demo
+          path: frontend/test-results/**/*.webm
+          if-no-files-found: error
+      - run: python3 scripts/dev/backend_demo.py smoke --verify-restart
+      - if: failure()
+        run: if [ -f .env.backend-demo ]; then python3 scripts/dev/backend_demo.py logs; fi
+      - if: always()
+        run: if [ -f .env.backend-demo ]; then python3 scripts/dev/backend_demo.py down; fi

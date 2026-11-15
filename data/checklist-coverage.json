@@ -1,0 +1,847 @@
+[
+  {
+    "row_id": "avito-checklist-general-r2",
+    "audience": "mentor",
+    "question": "Что мне как наставнику организовать в первую неделю и о чём поговорить со стажёром на первых 1:1?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-general-r2",
+      "avito-habr-first-days-s3"
+    ],
+    "gap": "Чек-лист задаёт организационные действия, а статья описывает пользу регулярных 1:1. Конкретные чаты, список доступов, OKR и критерии успеха зависят от команды.",
+    "title": "Организационные моменты",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A2:C2",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r3",
+    "audience": "mentor",
+    "question": "У кого мне запросить методичку наставника и где её открыть?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r3"
+    ],
+    "gap": "Чек-лист направляет к куратору в первую неделю. Ссылки, контакта и самой методички в корпусе нет.",
+    "title": "Запроси у куратора стажировки методичку наставника",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A3:C3",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r4",
+    "audience": "intern",
+    "question": "Как познакомиться с командой в первую неделю, если на общих встречах ещё мало кого знаю?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-general-r4",
+      "avito-habr-first-days-s3"
+    ],
+    "gap": "Статья описывает опыт одного стажёра, который знакомился с командой через задачи и разговоры с коллегами. Состава команды, контактов и плана знакомства в корпусе нет.",
+    "title": "Познакомься с командой, с которой будешь работать",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A4:C4",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r5",
+    "audience": "intern",
+    "question": "О чём говорить с наставником на 1:1 и что записывать после встречи?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-general-r5",
+      "avito-habr-first-days-s3"
+    ],
+    "gap": "Есть темы для обсуждения, конспекта и обратной связи. Формат записи и договорённости о встречах определяет команда.",
+    "title": "Работа с наставником",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A5:C5",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r6",
+    "audience": "intern",
+    "question": "Как запросить доступ к пространству моей команды и с чего начать его изучение?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-general-r6",
+      "avito-habr-first-days-s3",
+      "atlas-docs-r1",
+      "orbit-docs-r1"
+    ],
+    "gap": "Для реальной команды нет ссылки, формы заявки и списка материалов. Идентификаторы, роли и обоснования Atlas и Orbit описывают только учебные пространства.",
+    "title": "Запроси доступ в пространство своего кластера и/или команды и изучи его/их",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A6:C6",
+    "provenance": [
+      "avito_public",
+      "demo_policy"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r7",
+    "audience": "mentor",
+    "question": "Где отслеживать прогресс стажёра и что внести в инструмент на второй неделе?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r7"
+    ],
+    "gap": "Куратор предоставляет инструмент, а чек-лист перечисляет цели, задачи и ожидания. Ссылки, названия инструмента и примера заполнения в корпусе нет. Учебные проекты Jira предназначены для задач.",
+    "title": "Запроси у куратора инструмент для отслеживания прогресса стажера. Внеси в него цели, задачи и ожидания",
+    "period": "2 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A7:C7",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r8",
+    "audience": "intern",
+    "question": "Какие документы моей команды нужно прочитать ко второй неделе?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r8"
+    ],
+    "gap": "Чек-лист указывает на материалы от бадди или руководителя. Конкретных ссылок, обязательного списка и порядка чтения для реальной команды нет.",
+    "title": "Изучи все необходимые документы и мануалы по работе в своей команде/вертикали/кластеру, которыми с тобой поделился бадди/руководитель",
+    "period": "2 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A8:C8",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r9",
+    "audience": "intern",
+    "question": "Какие материалы по защите данных нужно изучить в первый месяц и где их найти?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r9"
+    ],
+    "gap": "Чек-лист называет лендинг, памятку и политику. Тексты, ссылки и внутренние правила обработки данных в корпусе отсутствуют.",
+    "title": "Изучи основы защиты персональных данных и другие инструкции Авито",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A9:C9",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r10",
+    "audience": "intern",
+    "question": "Где взять памятку и что нужно сделать, чтобы закрыть вузовскую практику или написать учебную работу про Авито?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r10"
+    ],
+    "gap": "Есть название памятки и срок её изучения. Ссылки, содержания, списка документов и порядка согласования нет.",
+    "title": "Изучи памятку, как закрывать практику, писать учебные работы по Авито",
+    "period": "2 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A10:C10",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r11",
+    "audience": "intern",
+    "question": "На какие занятия сходить, чтобы подготовить презентацию и речь к экватору?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r11"
+    ],
+    "gap": "Чек-лист называет мастер-классы и курсы и указывает на приглашения в календаре. Ссылок на материалы и дат в корпусе нет.",
+    "title": "Подготовься к экваторной встрече",
+    "period": "После 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A11:C11",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r12",
+    "audience": "intern",
+    "question": "Как подготовить, согласовать и представить промежуточные результаты на экваторе?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r12"
+    ],
+    "gap": "Чек-лист описывает подготовку, согласование, возможную репетицию и выступление. Заданная структура слайдов, шаблон и календарные события отсутствуют.",
+    "title": "Экваторная встреча",
+    "period": "После 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A12:C12",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r13",
+    "audience": "mentor",
+    "question": "Как провести 1:1 по промежуточным итогам и дать обратную связь по целям стажировки?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-general-r13",
+      "avito-habr-first-days-s3"
+    ],
+    "gap": "Чек-лист задаёт предмет разговора, статья даёт контекст о двусторонней обратной связи и корректировке плана. Нет сценария оценки и шкалы результатов.",
+    "title": "На 1:1 обсуди со стажёром промежуточные итоги стажировки, дай обратную связь по его прогрессу и результатам относительно целей",
+    "period": "После 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A13:C13",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r14",
+    "audience": "mentor",
+    "question": "Что проверить в презентации стажёра и как помочь ему перед экватором?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r14"
+    ],
+    "gap": "Чек-лист даёт критерий проверки, длительность репетиции и назначение напутственного слова. Нет шаблона презентации и материалов брифа.",
+    "title": "Экваторная встреча",
+    "period": "После 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A14:C14",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r15",
+    "audience": "intern",
+    "question": "Где узнать дату и формат выпускного и к кому обратиться с вопросами?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r15"
+    ],
+    "gap": "Чек-лист направляет к календарному приглашению и куратору. Даты, формата и контакта куратора в корпусе нет.",
+    "title": "Выпускной",
+    "period": "После 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A15:C15",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r16",
+    "audience": "unspecified",
+    "question": "Где открыть опрос по итогам стажировки и когда его пройти?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r16"
+    ],
+    "gap": "Чек-лист указывает общий период после трёх месяцев. Ссылки, точного срока и явного указания роли нет. Текст совпадает со строкой 17.",
+    "title": "Пройди опрос о том, как прошла стажировка",
+    "period": "После 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A16:C16",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-general-r17",
+    "audience": "unspecified",
+    "question": "Где открыть опрос по итогам стажировки и когда его пройти?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-general-r17"
+    ],
+    "gap": "Чек-лист указывает общий период после трёх месяцев. Ссылки, точного срока и явного указания роли нет. Текст совпадает со строкой 16.",
+    "title": "Пройди опрос о том, как прошла стажировка",
+    "period": "После 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=1073060303&range=A17:C17",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r2",
+    "audience": "intern",
+    "question": "Как пройти курс «Agile в Авито» и разобраться, как команда работает по Scrum?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r2",
+      "avito-habr-first-days-s3",
+      "avito-checklist-general-r5"
+    ],
+    "gap": "Нет ссылки на курс, его программы и актуальных правил Scrum конкретной команды. Статья 2021 года описывает опыт одного стажёра.",
+    "title": "Курс про Agile инструменты:",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A2:B2",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r3",
+    "audience": "intern",
+    "question": "Где пройти курс по микросервисной архитектуре Авито и что из него нужно освоить?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r3"
+    ],
+    "gap": "Нет курса, ссылки на него и программы. Публичное описание PaaS не заменяет курс.",
+    "title": "Изучи микросервисную архитектура в Авито",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A3:B3",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r4",
+    "audience": "intern",
+    "question": "Как отправить запрос через Bruno и подключить Lens к учебному кластеру?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r4",
+      "vendor-bruno-http-s1",
+      "vendor-lens-kubeconfig-s1",
+      "vendor-kubernetes-context-s1"
+    ],
+    "gap": "Есть шаги для Bruno и Lens. Рабочие адреса, kubeconfig, права и настройки Charles в корпусе отсутствуют.",
+    "title": "Сниффер запросов: установи на компьютер cниффер запросов (bruno или charles), LENS для работы с kubernetes",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A4:B4",
+    "provenance": [
+      "avito_public",
+      "vendor_docs"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r5",
+    "audience": "intern",
+    "question": "Что делать команде, когда на неё назначили обращение пользователя в SPT, и когда его закрывать?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r5",
+      "avito-playbook-spt-s1",
+      "avito-playbook-spt-s2",
+      "avito-playbook-spt-s3",
+      "avito-playbook-spt-s4"
+    ],
+    "gap": "Для навигации в рабочей Jira нужны актуальные ссылки, доступы и локальные договорённости команды.",
+    "title": "Изучи информацию про SPT",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A5:B5",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r6",
+    "audience": "intern",
+    "question": "Как команда решает, что делать с новым багом по Zero Bug Policy?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r6",
+      "avito-playbook-development-s26",
+      "avito-habr-zbp-s1",
+      "avito-habr-zbp-s2"
+    ],
+    "gap": "Текущие сроки по приоритетам и шаги в Jira не указаны. Статья 2019 года пригодна для исторического примера.",
+    "title": "Изучи Zero Bug Policy (ZBP)",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A6:B6",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r7",
+    "audience": "unspecified",
+    "question": "Что такое дашборд, панель и источник данных в Grafana?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r7",
+      "vendor-grafana-dashboard-s1"
+    ],
+    "gap": "Рабочий дашборд, метрики и права конкретной команды.",
+    "title": "Расскажи о Grafana",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A7:B7",
+    "provenance": [
+      "avito_public",
+      "vendor_docs"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r8",
+    "audience": "intern",
+    "question": "Какие правила Авито учитывать, когда проектирую или меняю API?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r8",
+      "avito-playbook-development-s9",
+      "avito-playbook-development-s10",
+      "avito-playbook-development-s11",
+      "avito-playbook-development-s12",
+      "avito-playbook-development-s13",
+      "avito-playbook-development-s14"
+    ],
+    "gap": "Нет внутреннего руководства по API, его инструментов, шаблонов и процедуры согласования.",
+    "title": "Изучи информации про API",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A8:B8",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r9",
+    "audience": "intern",
+    "question": "С каких тем начать Effective Go?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r9",
+      "vendor-effective-go-s1"
+    ],
+    "gap": "Отдельные современные материалы по модулям и generics.",
+    "title": "Изучи Effective Go",
+    "period": "1 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A9:B9",
+    "provenance": [
+      "avito_public",
+      "vendor_docs"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r10",
+    "audience": "intern",
+    "question": "На какие принципы разработки Авито опираться при проектировании, изменении и выкатке сервиса?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r10",
+      "avito-playbook-development-s2",
+      "avito-playbook-development-s3",
+      "avito-playbook-development-s4",
+      "avito-playbook-development-s5",
+      "avito-playbook-development-s6",
+      "avito-playbook-development-s7",
+      "avito-playbook-development-s8",
+      "avito-playbook-development-s9",
+      "avito-playbook-development-s10",
+      "avito-playbook-development-s11",
+      "avito-playbook-development-s12",
+      "avito-playbook-development-s13",
+      "avito-playbook-development-s14",
+      "avito-playbook-development-s15",
+      "avito-playbook-development-s16",
+      "avito-playbook-development-s17",
+      "avito-playbook-development-s18",
+      "avito-playbook-development-s19",
+      "avito-playbook-development-s20",
+      "avito-playbook-development-s21",
+      "avito-playbook-development-s22",
+      "avito-playbook-development-s23",
+      "avito-playbook-development-s24",
+      "avito-playbook-development-s25",
+      "avito-playbook-development-s26",
+      "avito-playbook-development-s27"
+    ],
+    "gap": "Общие принципы доступны. Локальные правила команды и процедура согласования конкретного изменения в корпусе не описаны.",
+    "title": "Принципы разработки Авито",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A10:B10",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r11",
+    "audience": "intern",
+    "question": "Где найти актуальный материал «Авито в цифрах» и какие показатели в нём посмотреть?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r11"
+    ],
+    "gap": "Нет ссылки на материал, самих показателей и даты их актуальности.",
+    "title": "Изучи Авито в цифрах",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A11:B11",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r12",
+    "audience": "intern",
+    "question": "Зачем нужна avito-cli, где найти способ установки?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r12",
+      "avito-cli-purpose-s1"
+    ],
+    "gap": "Внутренняя инструкция установки и проверки доступа.",
+    "title": "Настрой avito-cli",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A12:B12",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r13",
+    "audience": "intern",
+    "question": "Какую часть SSH-ключа добавить в Stash и что делать дальше?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r13",
+      "vendor-bitbucket-ssh-s1"
+    ],
+    "gap": "Адрес и включённость SSH в рабочей инсталляции. Справка относится к Bitbucket Data Center.",
+    "title": "Добавь ключи в stash",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A13:B13",
+    "provenance": [
+      "avito_public",
+      "vendor_docs"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r14",
+    "audience": "intern",
+    "question": "Как получить доступ к каналу Tech-dep в первую неделю?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r14",
+      "avito-checklist-general-r5"
+    ],
+    "gap": "Чеклист указывает, к кому обратиться. Ссылка на канал и порядок действий для приглашающего отсутствуют.",
+    "title": "Попроси руководителя или наставника добавить тебя в канал Tech-dep",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A14:B14",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r15",
+    "audience": "unspecified",
+    "question": "Как устроен разбор ошибки в Sentry?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r15",
+      "vendor-sentry-issues-s1"
+    ],
+    "gap": "Рабочий проект и условия доступа.",
+    "title": "Расскажи о Sentry",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A15:B15",
+    "provenance": [
+      "avito_public",
+      "vendor_docs"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r16",
+    "audience": "intern",
+    "question": "Как попасть на учебную платформу Авито и какие задачи решить в первую неделю?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r16"
+    ],
+    "gap": "Нет ссылки, порядка входа, списка задач и критериев выполнения.",
+    "title": "Прорешай задачи на учебной платформе, чтобы познакомиться с инструментами Авито",
+    "period": "1 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A16:B16",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r17",
+    "audience": "intern",
+    "question": "Где посмотреть «Демо Tech Platform» и что нужно освоить после просмотра?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r17"
+    ],
+    "gap": "Нет записи или расписания демо, программы и критериев прохождения.",
+    "title": "Изучи Демо Tech Platform",
+    "period": "2 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A17:B17",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r18",
+    "audience": "intern",
+    "question": "Как подготовить и запустить нагрузочный тест сервиса по правилам Авито?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r18"
+    ],
+    "gap": "Нет внутреннего руководства, инструмента запуска, тестового окружения и критериев оценки результата.",
+    "title": "Изучи документацию по нагрузочному тестированию",
+    "period": "2 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A18:B18",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r19",
+    "audience": "intern",
+    "question": "Где найти инфомодель и как посмотреть нужную сущность или её атрибуты?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r19"
+    ],
+    "gap": "Нет ссылки на инфомодель, описания её структуры и примера поиска.",
+    "title": "Изучи инфомодель",
+    "period": "2 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A19:B19",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r20",
+    "audience": "intern",
+    "question": "Какие правила Авито учитывать при выборе хранилища и изменении схемы БД?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r20",
+      "avito-playbook-development-s15",
+      "avito-playbook-development-s17",
+      "avito-playbook-development-s18",
+      "avito-playbook-development-s19",
+      "avito-playbook-development-s20",
+      "avito-playbook-paas-s2"
+    ],
+    "gap": "Нет полного внутреннего руководства по БД, каталога хранилищ, процедуры подключения и миграций.",
+    "title": "Данные и хранилища Авито",
+    "period": "2 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A20:B20",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r21",
+    "audience": "unspecified",
+    "question": "Как открыть Observer и проверить состояние своего сервиса?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r21"
+    ],
+    "gap": "Нет описания Observer, ссылки, порядка выдачи доступа и примера проверки сервиса.",
+    "title": "Расскажи о Observer",
+    "period": "2 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A21:B21",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r22",
+    "audience": "intern",
+    "question": "Что разработчик может делать через PaaS-дашборд и где следить за новостями платформы?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r22",
+      "avito-playbook-paas-s1",
+      "avito-playbook-paas-s2",
+      "avito-playbook-paas-s3"
+    ],
+    "gap": "Есть назначение платформы и её возможности. Нет рабочих ссылок на дашборд и канал новостей, а также инструкции для первого входа.",
+    "title": "Изучи PaaS: дашборд, а тут мы делимся новостями",
+    "period": "2 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A22:B22",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r23",
+    "audience": "intern",
+    "question": "Как запустить первую программу на Go?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r23",
+      "vendor-go-first-program-s1"
+    ],
+    "gap": "Упражнение для отдельного модуля. Команды запуска конкретного рабочего репозитория не указаны.",
+    "title": "Изучи документацию по Go",
+    "period": "2 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A23:B23",
+    "provenance": [
+      "avito_public",
+      "vendor_docs"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r24",
+    "audience": "intern",
+    "question": "Для чего нужны инженерные профили и какие ожидания описаны для E1?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r24",
+      "avito-engineer-profiles-s1"
+    ],
+    "gap": "Публичное описание карьерной лестницы. Уровень конкретного сотрудника и внутренний порядок оценки не указаны.",
+    "title": "Изучи профили инженеров",
+    "period": "2 неделя",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A24:B24",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r25",
+    "audience": "unspecified",
+    "question": "Что сделать в Redash, чтобы вывести результат запроса на дашборд?",
+    "level": "instruction",
+    "evidence": [
+      "avito-checklist-backend-r25",
+      "vendor-redash-query-s1"
+    ],
+    "gap": "Рабочий адрес Redash, наборы данных и права доступа конкретной команды не указаны.",
+    "title": "Расскажи о Redash",
+    "period": "3 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A25:B25",
+    "provenance": [
+      "avito_public",
+      "vendor_docs"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r26",
+    "audience": "intern",
+    "question": "Где пройти курс «Паттерны и практики написания кода» и как понять, что он завершён?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r26"
+    ],
+    "gap": "Нет ссылки, программы курса и критериев прохождения.",
+    "title": "Пройди курс \"Паттерны и практики написания кода\"",
+    "period": "3 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A26:B26",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r27",
+    "audience": "intern",
+    "question": "Как найти подходящее сообщество в Центре сообществ Авито и вступить в него?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r27"
+    ],
+    "gap": "Нет каталога, ссылки на Центр сообществ и порядка вступления.",
+    "title": "Найди подходящее сообщество для себя в Центре сообществ в Авито",
+    "period": "3 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A27:B27",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r28",
+    "audience": "intern",
+    "question": "Для чего нужен процесс «Шаталити» и как согласовать время плановых работ?",
+    "level": "explanation",
+    "evidence": [
+      "avito-checklist-backend-r28"
+    ],
+    "gap": "Чеклист объясняет цель процесса. Нет инструкции, где регистрировать работы, как проверить пересечения и кто их согласует.",
+    "title": "Познакомься с процессом Шаталити - помогает планировать свои задачи и делать так чтобы плановые работы на разных сервисах не совпадали по времени",
+    "period": "3 месяц",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A28:B28",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r29",
+    "audience": "intern",
+    "question": "Где взять книгу Донована и Кернигана «Язык программирования Go» и с каких глав начать?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r29"
+    ],
+    "gap": "Нет ссылки на доступное издание и маршрута по главам.",
+    "title": "Изучи книгу Язык программирования Go: Донован, Керниган",
+    "period": "после 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A29:B29",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r30",
+    "audience": "intern",
+    "question": "Где взять книгу Криса Ричардсона о микросервисах и какие паттерны разобрать в первую очередь?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r30"
+    ],
+    "gap": "Нет ссылки на издание и рекомендаций по главам или упражнениям.",
+    "title": "Изучи книгу Ричардсон Крис. Микросервисы. Паттерны разработки и рефакторинга",
+    "period": "после 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A30:B30",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r31",
+    "audience": "intern",
+    "question": "Где взять «Грокаем алгоритмы» и какие упражнения выполнить в рамках адаптации?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r31"
+    ],
+    "gap": "Нет ссылки на издание и рекомендуемого набора упражнений.",
+    "title": "Изучи книгу Бхаргава Адитья. Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих",
+    "period": "после 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A31:B31",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r32",
+    "audience": "intern",
+    "question": "Где взять «Высоконагруженные приложения» Клеппмана и какие главы читать первыми?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r32"
+    ],
+    "gap": "Нет ссылки на издание и порядка чтения.",
+    "title": "Изучи книгу Клеппман Мартин Высоконагруженные приложения. Программирование, масштабирование, поддержка",
+    "period": "после 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A32:B32",
+    "provenance": [
+      "avito_public"
+    ]
+  },
+  {
+    "row_id": "avito-checklist-backend-r33",
+    "audience": "intern",
+    "question": "С какой из книг, рекомендованных Димой Ходаковым, начать под мои задачи?",
+    "level": "checklist_only",
+    "evidence": [
+      "avito-checklist-backend-r33"
+    ],
+    "gap": "Есть список книг. Нет рекомендаций по порядку чтения, уровню подготовки или доступу к изданиям.",
+    "title": "Рекомендуемые материалы от Димы Ходакова, директора центра разработки ABS",
+    "period": "после 3-х месяцев",
+    "source_url": "https://docs.google.com/spreadsheets/d/1qKFqOzfSZ2jEz57jBSmq7rukDXi_tRfWohgemViceV0/edit#gid=0&range=A33:B33",
+    "provenance": [
+      "avito_public"
+    ]
+  }
+]

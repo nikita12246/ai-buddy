@@ -1,0 +1,230 @@
+[
+  {
+    "id": "retrieval-01",
+    "actor": {
+      "team_id": "atlas",
+      "role": "mentor"
+    },
+    "question": "В первую неделю стажёра что мне проверить с доступами и какие регулярные встречи поставить?",
+    "allowed_source_ids": [
+      "avito-checklist-general-r2"
+    ],
+    "expected_facts": [
+      "Проверить, подал ли стажёр запросы на доступ к нужным инструментам и пространствам, включая Confluence и Jira.",
+      "Назначить регулярные встречи 1:1 для обсуждения работы в команде, инструментов и задач."
+    ]
+  },
+  {
+    "id": "retrieval-02",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "К каким рабочим пространствам запросить доступ при знакомстве с командой и когда их посмотреть?",
+    "allowed_source_ids": [
+      "avito-checklist-general-r6"
+    ],
+    "expected_facts": [
+      "На первой неделе запросить доступ к пространству своего кластера, команды или обоим пространствам и изучить их."
+    ]
+  },
+  {
+    "id": "retrieval-03",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что записывать после встреч с наставником в первую неделю стажировки?",
+    "allowed_source_ids": [
+      "avito-checklist-general-r5"
+    ],
+    "expected_facts": [
+      "Вести конспект встреч с наставником и сохранять в нём общую информацию о компании и обратную связь о своей работе."
+    ]
+  },
+  {
+    "id": "retrieval-04",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Что на первой неделе Backend нужно сделать с avito-cli и ключами для Stash?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r12",
+      "avito-checklist-backend-r13"
+    ],
+    "expected_facts": [
+      "На первой неделе настроить avito-cli.",
+      "В тот же период добавить ключи в Stash."
+    ]
+  },
+  {
+    "id": "retrieval-05",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Кого попросить добавить меня в Tech-dep и на какой неделе это сделать по чек-листу Backend?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r14"
+    ],
+    "expected_facts": [
+      "На первой неделе обратиться к руководителю или наставнику с просьбой добавить в канал Tech-dep."
+    ]
+  },
+  {
+    "id": "retrieval-06",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Какие материалы по инженерным подходам компании нужно изучить в первую неделю по чек-листу Backend?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r10"
+    ],
+    "expected_facts": [
+      "На первой неделе изучить принципы разработки Авито."
+    ]
+  },
+  {
+    "id": "retrieval-07",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Сколько источников правды для данных рекомендует иметь AvitoTech Playbook?",
+    "allowed_source_ids": [
+      "avito-playbook-development-s18"
+    ],
+    "expected_facts": [
+      "У набора данных один источник правды. Поддерживать несколько мастер-копий сложнее."
+    ]
+  },
+  {
+    "id": "retrieval-08",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Когда принципы разработки рекомендуют асинхронное взаимодействие сервисов?",
+    "allowed_source_ids": [
+      "avito-playbook-development-s21"
+    ],
+    "expected_facts": [
+      "Предпочитать асинхронное взаимодействие там, где это возможно. Синхронный вызов уместен, если результат требуется сразу."
+    ]
+  },
+  {
+    "id": "retrieval-09",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Чем занимался автор статьи в первые дни стажировки в Авито и когда получил первую задачу?",
+    "allowed_source_ids": [
+      "avito-habr-first-days-s3"
+    ],
+    "expected_facts": [
+      "В первый день автор оформлялся, настраивал окружение, знакомился с наставником и запрашивал доступы.",
+      "Первую задачу наставник дал на следующий день."
+    ]
+  },
+  {
+    "id": "retrieval-10",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Как часто в статье «Первые дни стажировки» автор встречался с наставником один на один?",
+    "allowed_source_ids": [
+      "avito-habr-first-days-s3"
+    ],
+    "expected_facts": [
+      "Встречи с наставником проходили раз в неделю и служили для обратной связи."
+    ]
+  },
+  {
+    "id": "retrieval-11",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Какие два основных интерфейса Avito PaaS называет Playbook?",
+    "allowed_source_ids": [
+      "avito-playbook-paas-s1"
+    ],
+    "expected_facts": [
+      "Консольная утилита Avito и PaaS-дашборд."
+    ]
+  },
+  {
+    "id": "retrieval-12",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Зачем платформа Avito PaaS нужна разработчикам и какие инструменты предоставляет?",
+    "allowed_source_ids": [
+      "avito-playbook-paas-s2"
+    ],
+    "expected_facts": [
+      "Платформа помогает на этапах разработки и эксплуатации. Среди инструментов есть интеграция с БД, логирование, метрики и запуск тестов."
+    ]
+  },
+  {
+    "id": "retrieval-13",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Как сообщение о баге из HelpDesk становится задачей SPT в Jira?",
+    "allowed_source_ids": [
+      "avito-playbook-spt-s3"
+    ],
+    "expected_facts": [
+      "HelpDesk создаёт тикет-инцидент, агент связывает его с тикетом-проблемой, SPT-координатор заводит задачу в Jira и назначает её нужному юниту."
+    ]
+  },
+  {
+    "id": "retrieval-14",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Когда по описанию SPT в Playbook можно закрыть задачу, если исправление уже готово?",
+    "allowed_source_ids": [
+      "avito-playbook-spt-s4"
+    ],
+    "expected_facts": [
+      "После выхода исправления на продакшен. Если релиза ещё не было, нужно дождаться релиза."
+    ]
+  },
+  {
+    "id": "retrieval-15",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Какое решение по новому дефекту предлагает принять подход Zero Bug Policy в статье Авито?",
+    "allowed_source_ids": [
+      "avito-habr-zbp-s1"
+    ],
+    "expected_facts": [
+      "Запланировать исправление в ближайшее время либо закрыть дефект с решением Won’t Fix."
+    ]
+  },
+  {
+    "id": "retrieval-16",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "От чего в статье Авито про Zero Bug Policy зависел срок исправления дефекта на проде и каким был максимум?",
+    "allowed_source_ids": [
+      "avito-habr-zbp-s2"
+    ],
+    "expected_facts": [
+      "От приоритета дефекта. Максимальный срок в описанном подходе составлял два спринта."
+    ]
+  }
+]

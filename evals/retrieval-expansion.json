@@ -1,0 +1,450 @@
+[
+  {
+    "id": "sprint-01",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Зачем разработчику консольная утилита avito-cli?",
+    "allowed_source_ids": [
+      "avito-cli-purpose-s1"
+    ],
+    "expected_facts": [
+      "Это один из интерфейсов Avito PaaS для работы с жизненным циклом микросервисов."
+    ]
+  },
+  {
+    "id": "sprint-02",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что делает Avito CLI в связке с PaaS?",
+    "allowed_source_ids": [
+      "avito-cli-purpose-s1"
+    ],
+    "expected_facts": [
+      "Консольная утилита и дашборд служат интерфейсами платформы."
+    ]
+  },
+  {
+    "id": "sprint-03",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что такое Tech Design Review, зачем нужен TDR?",
+    "allowed_source_ids": [
+      "avito-tdr-s1"
+    ],
+    "expected_facts": [
+      "Это обсуждение проектных изменений и сбор отзывов до реализации."
+    ]
+  },
+  {
+    "id": "sprint-04",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что готовит автор к TDR и у кого собирает обратную связь?",
+    "allowed_source_ids": [
+      "avito-tdr-s1"
+    ],
+    "expected_facts": [
+      "Готовит дизайн-документ и собирает отзывы коллег."
+    ]
+  },
+  {
+    "id": "sprint-05",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Sentry: в чём разница между issue и отдельным событием?",
+    "allowed_source_ids": [
+      "vendor-sentry-issues-s1"
+    ],
+    "expected_facts": [
+      "Issue объединяет связанные события."
+    ]
+  },
+  {
+    "id": "sprint-06",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Где в Sentry посмотреть stack trace и breadcrumbs?",
+    "allowed_source_ids": [
+      "vendor-sentry-issues-s1"
+    ],
+    "expected_facts": [
+      "В деталях отдельного события."
+    ]
+  },
+  {
+    "id": "sprint-07",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Из чего состоит дашборд Grafana и что рисует панель?",
+    "allowed_source_ids": [
+      "vendor-grafana-dashboard-s1"
+    ],
+    "expected_facts": [
+      "Дашборд объединяет панели; панель визуализирует результат запроса."
+    ]
+  },
+  {
+    "id": "sprint-08",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что смотреть в Grafana, чтобы понять, откуда панель берёт метрику?",
+    "allowed_source_ids": [
+      "vendor-grafana-dashboard-s1"
+    ],
+    "expected_facts": [
+      "Проверить запрос панели и её источник данных."
+    ]
+  },
+  {
+    "id": "sprint-09",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Какую часть пары SSH-ключей добавить в Stash или Bitbucket?",
+    "allowed_source_ids": [
+      "vendor-bitbucket-ssh-s1"
+    ],
+    "expected_facts": [
+      "Добавить публичный ключ, приватный остаётся на устройстве."
+    ]
+  },
+  {
+    "id": "sprint-10",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Где взять адрес для клонирования по SSH в Bitbucket Data Center?",
+    "allowed_source_ids": [
+      "vendor-bitbucket-ssh-s1"
+    ],
+    "expected_facts": [
+      "SSH-адрес доступен в интерфейсе репозитория при подходящей конфигурации и правах."
+    ]
+  },
+  {
+    "id": "sprint-11",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "С чего начать чтение Effective Go, чтобы писать идиоматично?",
+    "allowed_source_ids": [
+      "vendor-effective-go-s1"
+    ],
+    "expected_facts": [
+      "Начать с gofmt, именования и работы с ошибками."
+    ]
+  },
+  {
+    "id": "sprint-12",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Покрывает ли Effective Go модули и generics?",
+    "allowed_source_ids": [
+      "vendor-effective-go-s1"
+    ],
+    "expected_facts": [
+      "Нет, документ посвящён основам и не охватывает эти возможности."
+    ]
+  },
+  {
+    "id": "sprint-13",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Где по чек-листу взять методичку наставника для стажировки?",
+    "allowed_source_ids": [
+      "avito-checklist-general-r3"
+    ],
+    "expected_facts": [
+      "У куратора стажировки в первую неделю."
+    ]
+  },
+  {
+    "id": "sprint-14",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Когда надо начать подготовку к экватору и что почитать для презентации?",
+    "allowed_source_ids": [
+      "avito-checklist-general-r11"
+    ],
+    "expected_facts": [
+      "После трёх месяцев; указана запись мастер-класса о презентациях."
+    ]
+  },
+  {
+    "id": "sprint-15",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Какая задача про защиту персональных данных есть в общем чек-листе?",
+    "allowed_source_ids": [
+      "avito-checklist-general-r9"
+    ],
+    "expected_facts": [
+      "Ознакомиться с материалами о защите данных, раскрытии информации и КИ."
+    ]
+  },
+  {
+    "id": "sprint-16",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Когда в Backend чек-листе надо знакомиться с профилями инженеров?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r24"
+    ],
+    "expected_facts": [
+      "На второй неделе."
+    ]
+  },
+  {
+    "id": "sprint-17",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Когда по Backend чек-листу смотреть документацию по базам и хранилищам?",
+    "allowed_source_ids": [
+      "avito-checklist-backend-r20"
+    ],
+    "expected_facts": [
+      "На второй неделе."
+    ]
+  },
+  {
+    "id": "sprint-18",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что такое SPT и что попадает в этот процесс?",
+    "allowed_source_ids": [
+      "avito-playbook-spt-s1"
+    ],
+    "expected_facts": [
+      "SPT относится к техническим проблемам, о которых сообщают пользователи."
+    ]
+  },
+  {
+    "id": "sprint-19",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что обещает PaaS компании, зачем платформу делают на уровне всего Авито?",
+    "allowed_source_ids": [
+      "avito-playbook-paas-s3"
+    ],
+    "expected_facts": [
+      "В Playbook названы ускорение разработки и поддержание актуального стека."
+    ]
+  },
+  {
+    "id": "sprint-20",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Как работает обратная совместимость API при изменениях контракта?",
+    "allowed_source_ids": [
+      "avito-playbook-development-s12"
+    ],
+    "expected_facts": [
+      "Изменения не должны ломать существующих клиентов."
+    ]
+  },
+  {
+    "id": "sprint-21",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Как отправить первый HTTP-запрос в Bruno?",
+    "allowed_source_ids": [
+      "vendor-bruno-http-s1"
+    ],
+    "expected_facts": [
+      "Создать коллекцию, добавить HTTP-запрос, указать метод и URL и нажать Send."
+    ]
+  },
+  {
+    "id": "sprint-22",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "В Bruno куда складывать несколько запросов к одному API и где глянуть ответ?",
+    "allowed_source_ids": [
+      "vendor-bruno-http-s1"
+    ],
+    "expected_facts": [
+      "Запросы хранить в коллекции. После отправки смотреть код ответа и тело."
+    ]
+  },
+  {
+    "id": "sprint-23",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Мне дали kubeconfig. Как добавить его в Lens?",
+    "allowed_source_ids": [
+      "vendor-lens-kubeconfig-s1"
+    ],
+    "expected_facts": [
+      "В настройках Kubernetes открыть Manage Kubeconfigs и добавить файл с диска."
+    ]
+  },
+  {
+    "id": "sprint-24",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Где в Lens появится кластер после импорта kubeconfig?",
+    "allowed_source_ids": [
+      "vendor-lens-kubeconfig-s1"
+    ],
+    "expected_facts": [
+      "В списке Local Kubeconfigs."
+    ]
+  },
+  {
+    "id": "sprint-25",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Что определяет текущий контекст kubeconfig в Kubernetes?",
+    "allowed_source_ids": [
+      "vendor-kubernetes-context-s1"
+    ],
+    "expected_facts": [
+      "Кластер, namespace и пользователя."
+    ]
+  },
+  {
+    "id": "sprint-26",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Как через kubectl переключиться на другой контекст Kubernetes?",
+    "allowed_source_ids": [
+      "vendor-kubernetes-context-s1"
+    ],
+    "expected_facts": [
+      "Выполнить kubectl config use-context с именем настроенного контекста."
+    ]
+  },
+  {
+    "id": "sprint-27",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Как с нуля создать go.mod для первой программы на Go?",
+    "allowed_source_ids": [
+      "vendor-go-first-program-s1"
+    ],
+    "expected_facts": [
+      "В папке упражнения выполнить go mod init с именем модуля."
+    ]
+  },
+  {
+    "id": "sprint-28",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Как запустить простую программу на Go из её папки?",
+    "allowed_source_ids": [
+      "vendor-go-first-program-s1"
+    ],
+    "expected_facts": [
+      "Из каталога модуля выполнить go run ."
+    ]
+  },
+  {
+    "id": "sprint-29",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "У меня есть запрос в Redash. Как превратить результат в график?",
+    "allowed_source_ids": [
+      "vendor-redash-query-s1"
+    ],
+    "expected_facts": [
+      "Добавить визуализацию к результату запроса."
+    ]
+  },
+  {
+    "id": "sprint-30",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Из чего можно собрать дашборд в Redash?",
+    "allowed_source_ids": [
+      "vendor-redash-query-s1"
+    ],
+    "expected_facts": [
+      "Из визуализаций результатов и текста."
+    ]
+  },
+  {
+    "id": "sprint-31",
+    "actor": {
+      "team_id": "atlas",
+      "role": "intern"
+    },
+    "question": "Для чего Авито публикует профили инженеров E1–E8?",
+    "allowed_source_ids": [
+      "avito-engineer-profiles-s1"
+    ],
+    "expected_facts": [
+      "Чтобы описать ожидания по уровням для оценки и развития инженеров."
+    ]
+  },
+  {
+    "id": "sprint-32",
+    "actor": {
+      "team_id": "orbit",
+      "role": "intern"
+    },
+    "question": "Какие задачи выполняет инженер E1 по публичному профилю Авито?",
+    "allowed_source_ids": [
+      "avito-engineer-profiles-s1"
+    ],
+    "expected_facts": [
+      "Небольшие задачи при поддержке наставника."
+    ]
+  }
+]

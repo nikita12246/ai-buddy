@@ -1,0 +1,113 @@
+{
+  "team_id": "orbit",
+  "mode": "demo",
+  "steps": [
+    {
+      "id": "meet-team",
+      "title": "Познакомиться с командой",
+      "period": "1 неделя",
+      "source_kind": "avito_public",
+      "source_ids": [
+        "avito-checklist-general-r4"
+      ],
+      "prerequisites": [],
+      "completion_kind": "self_check",
+      "completion_criterion": "Стажёр знает, кто его наставник и с кем обсуждать первую задачу."
+    },
+    {
+      "id": "mentor-sync",
+      "title": "Обсудить первые встречи с наставником",
+      "period": "1 неделя",
+      "source_kind": "avito_public",
+      "source_ids": [
+        "avito-checklist-general-r5"
+      ],
+      "prerequisites": [
+        "meet-team"
+      ],
+      "completion_kind": "self_check",
+      "completion_criterion": "Есть заметки со встречи и список вопросов."
+    },
+    {
+      "id": "review-principles",
+      "title": "Посмотреть принципы разработки",
+      "period": "1 неделя",
+      "source_kind": "avito_public",
+      "source_ids": [
+        "avito-checklist-backend-r10"
+      ],
+      "prerequisites": [],
+      "completion_kind": "self_check",
+      "completion_criterion": "Стажёр может показать, где лежат принципы разработки."
+    },
+    {
+      "id": "learn-task",
+      "title": "Уточнить учебное задание Orbit",
+      "period": "Учебный этап",
+      "source_kind": "demo_policy",
+      "source_ids": [
+        "orbit-first-task-r1"
+      ],
+      "prerequisites": [
+        "mentor-sync"
+      ],
+      "completion_kind": "self_check",
+      "completion_criterion": "Известен учебный репозиторий и ожидаемый результат задания."
+    },
+    {
+      "id": "request-repo",
+      "title": "Запросить роль Reporter для Orbit",
+      "period": "Учебный этап",
+      "source_kind": "demo_policy",
+      "source_ids": [
+        "orbit-repo-r1",
+        "orbit-approval-r1"
+      ],
+      "prerequisites": [
+        "learn-task"
+      ],
+      "completion_kind": "request_created",
+      "completion_criterion": "После явного подтверждения сервис вернул ID заявки на orbit-training-repo."
+    },
+    {
+      "id": "wait-repo",
+      "title": "Проверить одобрение заявки",
+      "period": "Учебный этап",
+      "source_kind": "demo_policy",
+      "source_ids": [
+        "orbit-approval-r1"
+      ],
+      "prerequisites": [
+        "request-repo"
+      ],
+      "completion_kind": "request_approved",
+      "completion_criterion": "Сервис заявок вернул approved для той же заявки."
+    },
+    {
+      "id": "read-readme",
+      "title": "Прочитать README учебного репозитория",
+      "period": "Учебный этап",
+      "source_kind": "demo_policy",
+      "source_ids": [
+        "orbit-first-task-r1"
+      ],
+      "prerequisites": [
+        "wait-repo"
+      ],
+      "completion_kind": "self_check",
+      "completion_criterion": "Стажёр прочитал README."
+    },
+    {
+      "id": "progress",
+      "title": "Записать цели и ожидания",
+      "period": "2 неделя",
+      "source_kind": "avito_public",
+      "source_ids": [
+        "avito-checklist-general-r7"
+      ],
+      "prerequisites": [],
+      "completion_kind": "self_check",
+      "completion_criterion": "Цели, задачи и ожидания внесены в инструмент, указанный куратором."
+    }
+  ]
+}
