@@ -196,10 +196,9 @@
 
 .studio-hero-art {
   position: absolute;
-  top: calc(50% - 18px);
-  right: 4%;
+  top: max(-16px, -1.1vw);
+  right: 0.5%;
   width: min(30%, 328px);
-  transform: translateY(-50%);
   pointer-events: none;
 }
 
@@ -250,6 +249,5 @@
     top: 8px;
     right: 18px;
     width: clamp(44px, 13vw, 62px);
-    transform: none;
   }
 }
