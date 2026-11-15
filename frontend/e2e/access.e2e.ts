@@ -59,6 +59,22 @@ test('guest enters automatically and approved GitLab request stays private after
 
   const card = page.getByRole('listitem').filter({ hasText: requestNumber });
   await expect(card.getByText('На согласовании')).toBeVisible();
+  const openSummary = card.getByRole('button', { name: 'Сводка для наставника' });
+  const summary = page.getByRole('dialog', { name: 'Сводка для наставника' });
+  const summaryText = summary.getByRole('textbox', { name: 'Текст сводки' });
+  await openSummary.click();
+  await expect(summaryText).toHaveValue(new RegExp(requestNumber));
+  await expect(summaryText).toHaveCSS('background-color', 'rgb(255, 255, 255)');
+  await expect(summaryText).toHaveCSS('color', 'rgb(23, 23, 23)');
+  await summary.getByRole('button', { name: 'Закрыть' }).click();
+
+  await page.getByRole('button', { name: 'Тёмная тема' }).click();
+  await openSummary.click();
+  await expect(summary).toHaveCSS('background-color', 'rgb(23, 23, 23)');
+  await expect(summaryText).toHaveCSS('background-color', 'rgb(36, 36, 36)');
+  await expect(summaryText).toHaveCSS('color', 'rgb(255, 255, 255)');
+  await summary.getByRole('button', { name: 'Закрыть' }).click();
+  await page.getByRole('button', { name: 'Светлая тема' }).click();
   await holdForRecording();
   await page.getByRole('button', { name: 'Открыть памятку по код-ревью' }).click();
   await holdForRecording();

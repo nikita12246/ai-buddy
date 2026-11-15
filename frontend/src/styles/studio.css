@@ -177,10 +177,16 @@
   text-underline-offset: .2em;
 }
 
-.dark [data-slot=dialog-content].source-dialog {
+.dark [data-slot=dialog-content]:is(.source-dialog, .mentor-summary-dialog) {
   background-color: #171717 !important;
   color: #fff !important;
   border-color: #404040 !important;
+}
+
+.dark .mentor-summary-dialog textarea {
+  background-color: #242424;
+  border-color: #404040;
+  color: inherit;
 }
 
 @media (max-width: 760px) {

@@ -72,7 +72,7 @@ export function AccessRequests({ requests, loading, error, reload, hasDraft, ope
       </CardContent>
     </Card>
     <Dialog open={!!summaryText} onOpenChange={open => { if (!open) setSummaryRequestId(null); }}>
-      <DialogContent>
+      <DialogContent className="mentor-summary-dialog">
         <DialogHeader>
           <DialogTitle>Сводка для наставника</DialogTitle>
           <DialogDescription>Скопируй сведения о заявке, чтобы обсудить её с наставником.</DialogDescription>
