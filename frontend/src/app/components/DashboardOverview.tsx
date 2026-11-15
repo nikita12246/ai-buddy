@@ -5,15 +5,43 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { BookOpen, KeyRound, Network, Sparkles, ArrowUpRight, Clock3, GraduationCap, Search } from 'lucide-react';
 import { documentKinds, type DocumentSummary } from '../api/onboarding';
-import { DecorativeFlower } from './DecorativeFlower';
-import { GlossyOrb } from './GlossyOrb';
 import type { AccessRequest } from '../api/onboarding';
 
 export function DashboardOverview({ ask, navigate, openDocument, access, recentIds, documents }: { ask:(q:string)=>void; navigate:(tab:string)=>void; openDocument:(id:string)=>void; access:AccessRequest|null; recentIds:string[]; documents:DocumentSummary[] }) {
   const [query, setQuery] = useState('');
   const prompts = ['Где смотреть задачи команды в Jira?', 'Как подключиться к учебному VPN?', 'Нужен доступ к учебному GitLab'];
   return <div className="space-y-6 dashboard-page">
-    <div className="studio-hero"><div className="studio-hero-copy"><Badge variant="secondary" className="mb-4 bg-white/80 dark:bg-card">✦ &nbsp; Учебная база знаний</Badge><h1 className="studio-hero-title">Привет!<br/>С чем помочь?</h1><p className="text-muted-foreground mb-5">Задай вопрос о документации, процессах и доступах. AI-buddy покажет, на каких учебных материалах основан ответ.</p><form className="studio-hero-search" onSubmit={event => { event.preventDefault(); ask(query); setQuery(''); }}><Search className="w-5 h-5 text-muted-foreground self-center ml-2 shrink-0" /><Input value={query} onChange={event => setQuery(event.target.value)} placeholder="Спросить AI-buddy" className="border-0 shadow-none focus-visible:ring-0" aria-label="Вопрос AI-buddy" /><Button type="submit" disabled={!query.trim()}><Sparkles className="w-4 h-4" /><span className="hidden sm:inline">Спросить</span></Button></form><div className="studio-hero-prompts">{prompts.map(prompt => <button key={prompt} onClick={() => ask(prompt)} className="text-xs px-3 py-2 rounded-full bg-white/70 dark:bg-card border border-border hover:border-primary transition-colors text-left">{prompt}</button>)}</div></div><div className="studio-hero-art"><DecorativeFlower tone="purple" /><GlossyOrb tone="blue" className="hero-orb" /><span className="hero-art-word">AI<br/>buddy</span></div></div>
+    <div className="studio-hero">
+      <div className="studio-hero-copy">
+        <Badge variant="secondary" className="mb-4 bg-white/80 dark:bg-card">✦ &nbsp; Учебная база знаний</Badge>
+        <h1 className="studio-hero-title">Привет!<br/>С чем помочь?</h1>
+        <p className="text-muted-foreground mb-5">
+          Задай вопрос о документации, процессах и доступах. AI-buddy покажет, на каких учебных материалах основан ответ.
+        </p>
+        <form className="studio-hero-search" onSubmit={event => { event.preventDefault(); ask(query); setQuery(''); }}>
+          <Search className="w-5 h-5 text-muted-foreground self-center ml-2 shrink-0" />
+          <Input value={query} onChange={event => setQuery(event.target.value)} placeholder="Спросить AI-buddy"
+            className="border-0 shadow-none focus-visible:ring-0" aria-label="Вопрос AI-buddy" />
+          <Button type="submit" disabled={!query.trim()}>
+            <Sparkles className="w-4 h-4" /><span className="hidden sm:inline">Спросить</span>
+          </Button>
+        </form>
+        <div className="studio-hero-prompts">
+          {prompts.map(prompt => <button key={prompt} onClick={() => ask(prompt)}
+            className="text-xs px-3 py-2 rounded-full bg-white/70 dark:bg-card border border-border hover:border-primary transition-colors text-left">
+            {prompt}
+          </button>)}
+        </div>
+      </div>
+      <div className="studio-hero-art" aria-hidden="true">
+        <div className="studio-hero-flower">
+          {Array.from({ length: 6 }, (_, petal) => (
+            <span key={petal} className="studio-hero-petal" style={{ transform: `rotate(${petal * 60 - 15}deg)` }} />
+          ))}
+          <span className="studio-hero-flower-center"><Sparkles /></span>
+        </div>
+      </div>
+    </div>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 studio-dashboard-actions">{[
       { title:'База знаний', text:`${documents.length} учебных материалов`, icon:BookOpen, tab:'knowledge', detail:'Найти инструкцию и источник' },
       { title:'Доступы', text:access ? access.status : 'Нет активных заявок', icon:KeyRound, tab:'access', detail:'Подготовить и проверить запрос' },
