@@ -194,6 +194,11 @@
   .internship-review-card { padding-inline: 20px; }
 }
 
+.dark .studio-hero::before {
+  border-color: #ffffff26;
+  box-shadow: 0 0 0 34px #ffffff13, 0 0 0 75px #ffffff09;
+}
+
 .studio-hero-art {
   position: absolute;
   top: max(-16px, -1.1vw);
