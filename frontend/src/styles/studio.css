@@ -196,7 +196,7 @@
 
 .studio-hero-art {
   position: absolute;
-  top: 50%;
+  top: calc(50% - 18px);
   right: 4%;
   width: min(30%, 328px);
   transform: translateY(-50%);
